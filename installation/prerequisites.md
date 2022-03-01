@@ -1,23 +1,25 @@
-# Prerequisites
+---
+description: To properly install TestingWhizPro, the following requirements need to be fulfilled.
+---
 
-## To install TestingWhizPro following software are required.
+# System Requirements
 
 ### Software Requirements
 
-* Docker
-* Docker-compose
+* Docker (Docker engine version >= 20.10)
+* Docker-compose(Docker-compose version >=  1.25.0)
 
 ### Hardware Requirements
 
-| **Hardware** | **Local Desktop** | **Server \(Multi User\)**  |
-| :--- | :--- | :--- |
-| CPU | Minimum 4 core | Minimum 4 core |
-| Memory | Minimum 8G | Minimum 32G |
-| Disk Space | Minimum 30G | Minimum 50gb |
+| **Hardware** | **Local Desktop** | **Server (Multi-User)**  |
+| ------------ | ----------------- | ------------------------ |
+| CPU          | Minimum 4 core    | Minimum 12 core          |
+| Memory       | Minimum 8GB       | Minimum 32GB             |
+| Disk Space   | Minimum 30GB      | Minimum 200GB            |
 
-{% hint style="info" %}
-Before proceeding ensure you have the license key
-{% endhint %}
+### Ports
 
+Ensure port 80 is open for HTTP
 
+Ensure port 443 is open for https
 

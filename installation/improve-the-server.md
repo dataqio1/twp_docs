@@ -1,8 +1,8 @@
-# Improve the server
+# Server Improvement
 
-We collect execution metrics to improve our process and optimize the code. The following metrics are collected \(job duration, compute resourcess allocated, type of job, size of job\). 
+TestingWhizPro collects execution metrics to improve processes and optimize the code. The following metrics are collected (job duration, compute resources allocated, type of job, size of job). 
 
-```text
+```
 startTime
 endTime
 executorCores
@@ -17,13 +17,8 @@ LICENSE_NAME
 IPAddress
 ```
 
-
-
-{% hint style="warning" %}
-**We never collect your organization's raw data.** 
+{% hint style="info" %}
+**We never collect your organization's raw data. **
 {% endhint %}
 
-
-
-If your organization would like to opt out of this process, set the flag STORE\_CENTRAL\_FLAG=2 in **.env file**
-
+If your organization would like to opt out of this process, open the _.env_ file and set the flag _STORE_CENTRAL_FLAG=2_.
