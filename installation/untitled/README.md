@@ -20,7 +20,7 @@ unzip dataops_server.zip
 cd dataops_server
 ```
 
-### Set License Name and License Key
+### Set License Name and License Key (Optional)
 
 **Edit .env** file and update following two properties \(from the values you received in the email \). Replace the default value of the LICENSE\_NAME with the value received in email.
 
@@ -29,7 +29,7 @@ LICENSE_NAME=<Name>
 LICENSE_KEY=<key>
 ```
 
-### Set Server URL
+### Set Server URL (Optional)
 
 ```text
 HOST_URL=< URL ex: dv.example.com or if there is no URL can also set IP addr>
